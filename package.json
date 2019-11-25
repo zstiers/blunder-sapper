@@ -44,12 +44,5 @@
     "sapper": "^0.27.0",
     "svelte": "^3.0.0",
     "yarnhook": "^0.4.3"
-  },
-  "husky": {
-    "hooks": {
-      "post-checkout": "yarnhook",
-      "post-merge": "yarnhook",
-      "post-rewrite": "yarnhook"
-    }
   }
 }
